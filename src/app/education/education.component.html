@@ -1,0 +1,16 @@
+<div>
+    <h3>Education</h3>
+    <ul *ngFor="let edu of education">
+        <tr>
+            <td>
+                {{ edu.fechaInicio }} - {{ edu.fechaFin }}
+            </td>
+        </tr>
+        <tr>
+            <h4 style="margin: 0;">{{ edu.certificado }}</h4>
+        </tr>
+        <tr>
+            {{ edu.colegio }}
+        </tr>
+    </ul>
+</div>

@@ -1,0 +1,17 @@
+<div>
+    <h3>Achievements & Certificates</h3>
+    <ul *ngFor="let achieve of achievements" style="padding: 0;">
+            <tr>
+                <td style="align-content: flex-end;">
+                    <h4 style="margin: 0;">
+                        {{ achieve.title }}
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    {{ achieve.description }}
+                </td>
+            </tr>
+    </ul>
+</div>
